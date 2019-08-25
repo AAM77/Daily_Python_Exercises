@@ -18,3 +18,10 @@ print(f"Jim Rohn once said, {quote}");
 famous_person = 'Jim Rohn';
 message = f"{famous_person} once said, {quote}"
 print(message)
+
+# 2-6: stripping names
+name = '\tSarah\n';
+print(name);
+print(name.lstrip());
+print(name.rstrip());
+print(name.strip());
