@@ -20,3 +20,12 @@ names = ['person_1', 'person_2', 'person_3'];
 print(names[0]);
 print(names[1]);
 print(names[2]);
+
+# 3-2: Greetings
+
+message = f"Hi {names[0]}! You're cool.";
+print(message);
+message = f"Hi {names[1]}! You're cool.";
+print(message);
+message = f"Hi {names[2]}! You're cool.";
+print(message);
