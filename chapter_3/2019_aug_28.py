@@ -51,3 +51,42 @@ print(f"current list (after sort()): {places}\n")
 
 places.sort(reverse=True)
 print(f"current list (after sort(reverse=True)): {places}\n")
+
+# 3-9 dinner guests (print length of list)
+
+dinner_guests = ['james', 'sara', 'sally', 'tom', 'tahira', 'mazhar', 'numaan', 'muneeb', 'abdul qadar']
+print(f"I am expecting {len(dinner_guests)} dinner guests.")
+
+# 3-10
+
+food = ['apple', 'orange', 'watermelon', 'pizza', 'spaghetti', 'cashews', 'roasted chicken breast']
+print(f'I ate {food[2]} today.')
+food.insert(3, 'sweet dish')
+print(f'I ate {food[3]} today.')
+food.append('biryani')
+print(f'I did not eat {food[len(food)-1]} today.')
+
+food.append('tv')
+del food[len(food)-1]
+food.append('phone')
+print(f'A {food.pop()} is not food!')
+
+print(f"original: {food}\n")
+
+print(f"w/ sorted(): {sorted(food)}")
+print(f"current list order: {food}\n")
+
+print(f"w/ sorted() & reverse=True: {sorted(food, reverse=True)}")
+print(f"current list order: {food}\n")
+
+places.reverse()
+print(f"current list (after x1 reverse()): {food}\n")
+
+places.reverse()
+print(f"current list (after x2 reverse()): {food}\n")
+
+places.sort()
+print(f"current list (after sort()): {food}\n")
+
+places.sort(reverse=True)
+print(f"current list (after sort(reverse=True)): {food}\n")
