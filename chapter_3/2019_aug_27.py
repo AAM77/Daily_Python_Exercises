@@ -20,3 +20,18 @@ guests.append('sal')
 
 for guest in guests:
     print(f"Hello {guest}.")
+
+
+
+# 3-7 shrinking guest list
+
+print("I can invite only two people for dinner this time.")
+while len(guests) > 2:
+    print(f"I am sorry I could not invite you this time, {guests.pop()}.")
+
+for guest in guests:
+    print(f"You are still invited, {guest}.")
+
+del guests[1]
+del guests[0]
+print(guests)
