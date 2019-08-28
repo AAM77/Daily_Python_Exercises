@@ -10,3 +10,13 @@ for guest in guests:
 guests[2] = 'new_person3'
 for guest in guests:
     print(f"Hello {guest}.")
+
+
+# 3-6 more guests
+
+guests.insert(0,'jane')
+guests.insert(2,'sarah')
+guests.append('sal')
+
+for guest in guests:
+    print(f"Hello {guest}.")
